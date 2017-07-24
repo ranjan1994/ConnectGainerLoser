@@ -1,0 +1,1 @@
+web: gunicorn kite.wsgi --log-file -

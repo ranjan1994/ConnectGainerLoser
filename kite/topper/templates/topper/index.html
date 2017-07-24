@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<style>
+.subject{position: absolute;top: 25%; left: 34%;list-style-type: none;background:#90EE90;
+    padding: 70px;text-decoration: none;
+}
+ul li{background:#FFFFF0;}
+a:link {
+    text-decoration: none;
+}
+a:hover{ background: #F0E68C;
+
+}
+
+</style>
+<body background = "http://www.lintex.com.au/wp-content/uploads/2017/01/Stock-Image-9.jpg">
+	<h2>Hi</h2>
+
+  <ul class = "subject">
+    <h2><li><strong><a href="{% url 'topper:volume' %}">Volume</a></strong></li></h2><br>
+    <h2><li><strong><a href="{% url 'topper:change' %}">gainer</a></strong></li></h2><br> 
+    <h2><li><strong><a href="{% url 'topper:loser' %}">loser</a></strong></li></h2><br>
+
+  </ul>
+
+
+</body>     
+</html>
